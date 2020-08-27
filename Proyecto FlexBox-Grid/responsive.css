@@ -1,0 +1,33 @@
+@media(max-width:699px) {
+    footer .description, footer .logo {
+        text-align: center;
+    }
+}
+
+@media(max-width:645px) {
+    .contenido{
+        flex-flow: column wrap;
+    }
+
+    .contenido .temas h2 {
+        border: none;
+    }
+
+    .contenido .temas ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+
+    .contenido .temas ul li{
+        margin: 0px 10px;
+    }
+
+}
+
+
+@media(max-width:546px){
+    header .logo {
+        text-align: center;
+    }
+}
